@@ -20,7 +20,7 @@ export default function Card({
     card1: "text-Purple-50",
     card2: "text-Grey-100",
     card3: "text-Grey-500",
-    card4: "text-Grey-500",
+    card4: "text-Grey-100",
     card5: "text-Grey-400",
   };
 
@@ -62,7 +62,7 @@ export default function Card({
       >
         {headline}
       </h2>
-      <p className={`${textColors[className]} text-preset-3`}>{detail}</p>
+      <p className={`${textColors[className]} text-preset-3`}>“ {detail} “</p>
     </div>
   );
 }
