@@ -39,7 +39,7 @@ export default function Card({
   };
   return (
     <div
-      className={`rounded-lg p-32 shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.24)] ${cardColors[className]} ${gridProperties[className]} ${className === "card1" ? "md:bg-[url(../../public/bg-pattern-quotation.svg)] md:bg-[85%_0%] md:bg-no-repeat" : ""}`}
+      className={`rounded-lg p-32 shadow-[40px_60px_50px_-47px_rgba(72,85,106,0.24)] ${cardColors[className]} ${gridProperties[className]} ${className === "card1" ? "md:bg-[url(../assets/images/bg-pattern-quotation.svg)] md:bg-[85%_0%] md:bg-no-repeat" : ""}`}
     >
       <div className="mb-16 flex items-center gap-16">
         <div
