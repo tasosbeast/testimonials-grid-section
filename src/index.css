@@ -66,3 +66,9 @@
 @utility text-preset-4 {
   font-size: 0.688rem;
 }
+
+@utility bg-quotation {
+  background-image: url("./assets/images/bg-pattern-quotation.svg");
+  background-position: 85% 0%;
+  background-repeat: no-repeat;
+}
