@@ -1,9 +1,15 @@
 import "./App.css";
+import Card from "./components/Card";
+import cardData from "./data/cardData";
 
 function App() {
   return (
-    <main className="max-w[19.063rem] md:max-w-[40.438rem] xl:max-w-[69.625rem] mx-auto">
-      <h1 className="text-preset-1">React App</h1>
+    <main className="mx-auto w-[19.063rem] md:w-[40.438rem] xl:w-[69.625rem]">
+      <div className="grid grid-cols-1 gap-9 md:grid-cols-2 xl:grid-cols-4">
+        {cardData.map((card) => (
+          <Card key={card.id} {...card} />
+        ))}
+      </div>
     </main>
   );
 }
