@@ -45,7 +45,7 @@ export default function Card({
         <div
           className={`w-fit rounded-full ${imageBgColors[className]} p-[2px]`}
         >
-          <img src={image} alt={name} className="rounded-full" width="28px" />
+          <img src={image} alt={name} className="rounded-full" width="28" />
         </div>
         <div>
           <p
